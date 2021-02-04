@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    outline: none;
+    font-family: 'Karla', sans-serif;
+}
+
+/* ---Media min width for container--- */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+/* ---End Media min width for container--- */
+
+.top-header-bar {
+    width: 100%;
+    background: #2b2e34;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.top-header-bar li {
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.top-header-bar a {
+    color: inherit
+}
+
+.top-header-bar .top-email {
+    float: left;
+}
+
+.top-header-bar .top-cart {
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #f66249;
+}
+
+.top-header-bar .top-account {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #353940;
+}
+
+.top-header-bar .top-search {
+    margin-right: 11px;
+    float: right;
+    height: 100%;
+}
+
+.top-header-bar .top-search .top-search-field {
+    background: #25262b;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 30px;
+    transition: background 250ms cubic-bezier(.075, .82, .165, 1) 0s;
+}
+
+.top-header-bar .top-search .top-search-button {
+    border: none;
+    border-radius: 3px;
+    background: #25262b;
+    padding: 0 10px;
+    height: 30px;
+    position: relative;
+    left: -5px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.top-header-bar .top-search .top-search-button span {
+    vertical-align: middle;
+    height: 30px;
+}
+
+/* Responsive for top-header-bar */
+@media (max-width: 767px) {
+    .top-header-bar li {
+        width: 100%;
+        display: inline-block !important;
+        border: none !important;
+        float: none !important;
+        margin: 0;
+        padding-left: 15px !important;
+        padding-right: 15px;
+    }
+}
