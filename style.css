@@ -163,6 +163,10 @@
     font-weight: 700;
 }
 
+.site-header .site-nav .desktop-menu .desktop-menu-item a:hover {
+    color: #f66249;
+}
+
 .site-header .site-nav .desktop-menu .active a {
     color: #f66249;
 }
